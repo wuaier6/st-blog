@@ -1,0 +1,30 @@
+#GitBlog配置文件，使用4个空格代替Tab
+---
+url: http://st-blog.app
+title: 沈涛博客
+subtitle: 主要是网站开发和英语的个人学习过程的记录
+theme: quest
+enableCache: false
+highlight: true
+mathjax: false
+duoshuo: shentao
+baiduAnalytics:
+keywords: laravel,php,english
+description: >
+  laravel学习和英文学习
+version: 2.2
+author:
+    name: 涛涛
+    email: 411080515@qq.com
+    github: your-github
+    weibo: your-weibo
+    avatar:
+blog:
+    recentSize: 5
+    pageSize: 6
+    pageBarSize: 5
+    allBlogsForPage: false
+text:
+    title: 介绍
+    intro: >
+          本博客使用Gitblog搭建，欢迎你!

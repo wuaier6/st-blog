@@ -4,7 +4,6 @@ head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
 date: 2016-06-03
 title: linux用户权限学习
 tags: linux服务器
-category: linux服务器
 status: publish
 summary: 个人服务器学习纪录
 -->

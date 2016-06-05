@@ -4,7 +4,7 @@ url: http://st-blog.app
 title: 沈涛博客
 subtitle: 主要是网站开发和英语的个人学习过程的记录
 theme: quest
-enableCache: false
+enableCache: true
 highlight: true
 mathjax: false
 duoshuo: shentao
@@ -16,8 +16,8 @@ version: 2.2
 author:
     name: 涛涛
     email: 411080515@qq.com
-    github: your-github
-    weibo: your-weibo
+    github: 
+    weibo: 
     avatar:
 blog:
     recentSize: 5

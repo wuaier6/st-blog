@@ -1,33 +1,29 @@
 <!--
 author: shentao
 head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
-date: 2016-06-03
-title: linux php7 memcache追加
-tags: linux服务器
+date: 2016-06-05
+title: php7 搭建gitblog 坑
+tags: php学习
+category: php学习
 status: publish
-summary: 个人服务器学习纪录
+summary: 个人学习纪录
 -->
 
+###php7 搭建gitblog 坑
 
-## Php7 Memcache扩展 ##
+因为自己的服务器上现在只有php7的环境.所以gitblog的也用了php7.
 
-安装过程
+问题：
 
-    #git clone https://github.com/php-memcached-dev/php-memcached.git
-    #git checkout php7
-    #/application/system/php7/bin/phpize
-    # ./configure --with-php-config=/application/system/php7/bin/php-config --with-libmemcached-dir=/application/system/libmemcached
-    #make && make install
-    
->memcache安装时需要指定libmemcached。安装成功
->//Installing shared extensions:     /application/system/php7/lib/php/extensions/no-debug-non-zts-20151012/
+>ERROR - 2016-06-05 03:27:49 --> Severity: error --> Exception: Function name must be a string /application/wwwroot/st-blog/app/third_party/parsedown/Parsedown.php 1415
 
-php.ini修正
 
-    #vim /application/system/php7/etc/php.ini
->[memcached]
->extension=memcached.so
+修改前:
 
-重启php7
+     $markup .= $this->$Element['handler']($Element['text']);
 
-    #/etc/init.d/php-fpm restart
+修改后：
+
+     $markup .= $this->{$Element['handler']}($Element['text']);
+
+本人只遇到这个错，如果有什么其他的错。可以留言给我。

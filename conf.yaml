@@ -1,23 +1,23 @@
 #GitBlog配置文件，使用4个空格代替Tab
 ---
 url: http://st-blog.app
-title: 沈涛博客
-subtitle: 主要是网站开发和英语的个人学习过程的记录
-theme: quest
-enableCache: true
+title: 外卖优惠共享
+subtitle:  <img src="" alt="" />
+theme: default
+enableCache: tre
 highlight: true
 mathjax: false
-duoshuo: shentao
+duoshuo: 涛涛
 baiduAnalytics:
-keywords: laravel,php,english
+keywords: 外卖,饿了么,美团,手气红包群,技术学习群
 description: >
-  laravel学习和英文学习
+   提供大家分享的外卖红包,让大家提供更加性价比的外卖服务
 version: 2.2
 author:
     name: 涛涛
     email: 411080515@qq.com
     github: 
-    weibo: 
+    weibo:  
     avatar:
 blog:
     recentSize: 5
@@ -25,6 +25,6 @@ blog:
     pageBarSize: 5
     allBlogsForPage: false
 text:
-    title: 介绍
+    title: 关注【外卖优惠共享】
     intro: >
-          本博客使用Gitblog搭建，欢迎你!
+         

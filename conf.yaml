@@ -1,7 +1,7 @@
 #GitBlog配置文件，使用4个空格代替Tab
 ---
 url: http://www.pigzu.com/
-title: 外卖优惠共享
+title: 外卖红包-外卖优惠共享
 subtitle:  <img src="" alt="" />
 theme: default
 enableCache: tre
@@ -9,7 +9,7 @@ highlight: true
 mathjax: false
 duoshuo: 涛涛
 baiduAnalytics:
-keywords: 外卖,饿了么,美团,手气红包群,技术学习群
+keywords: 外卖红包,饿了么红包，美团红包,外卖,饿了么,美团,手气红包群,技术学习群
 description: >
    提供大家分享的外卖红包,让大家提供更加性价比的外卖服务
 version: 2.2
